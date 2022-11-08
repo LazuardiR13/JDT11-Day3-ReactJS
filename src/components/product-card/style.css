@@ -1,0 +1,24 @@
+.product-card {
+  @apply border-primary rounded-md border-2 hover:border-dotted hover:cursor-pointer p-2 pb-4;
+}
+.product-card .ant-card {
+  @apply shadow-default rounded !important;
+}
+.ant-card-cover {
+  @apply flex justify-center;
+}
+.product-card .ant-card-cover img {
+  @apply rounded h-[100px] object-cover;
+}
+.product-card .ant-card-body {
+  @apply pt-2 p-0 !important;
+}
+.product-card .ant-card-meta-title {
+  @apply text-lg font-normal mb-1 !important;
+}
+.product-card .ant-card-meta-category {
+  @apply text-[10px] font-normal pb-2 !important;
+}
+.product-card .ant-card-meta-price {
+  @apply text-sm font-normal text-black !important;
+}
